@@ -8,8 +8,7 @@ public class Teacher : Job {
     override public void DoJob(Citizen citizen)
     {
         _teachingLevel = citizen.knowledge / 10; 
-
+        
 
     }
-
 }
